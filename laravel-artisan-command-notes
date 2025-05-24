@@ -1,0 +1,22 @@
+Laravel Artisan Command
+
+php artisan serve
+*start development server
+
+php artisan make:view <class-name.template-name> -- view
+*use to create view template
+
+php artisan make:request <request-name>
+*use to create request validation rules
+
+php artisan vendor:publish --tag=laravel-pagination
+*use to create paginaton template
+
+php artisan route:list
+*use to view all the links and http method
+
+php artisan make:model --help
+*use to get a list of command to make model
+
+php artisan make:model <Name> -mcr
+*use to create model, controller, and resources in one line of command
